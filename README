@@ -1,0 +1,28 @@
+Template-Ast version 0.01
+=========================
+
+This module provides some methods to ease the handling of Perl AST
+structures for Perl Template Toolkit, such as AST reading, AST writing,
+and AST merging.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Template
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 Agent Zhang
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
