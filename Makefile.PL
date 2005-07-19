@@ -1,6 +1,4 @@
 use strict;
-#use warnings;
-#use Config;
 use inc::Module::Install;
 my $astt = "script/astt.pl";
 

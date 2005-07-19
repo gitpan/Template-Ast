@@ -92,7 +92,7 @@ __END__
 
 =head1 NAME
 
-Template::Ast - AST Processing Facilities for Perl Template Toolkit
+Template::Ast - Processing ASTs for Perl Template Toolkit
 
 =head1 SYNOPSIS
 
@@ -136,7 +136,7 @@ Template::Ast - AST Processing Facilities for Perl Template Toolkit
 =head1 DESCRIPTION
 
 ASTs are essential in the programming model based on Perl Template Toolkit.
-This module provides some easy interface to process the dirty work involved
+This module provides some easy interface to do the dirty work involved
 in AST handling. The term AST used here are referred to any Perl referece pointed
 to a complex data structure, such as a nested hash, a nested array, or such.
 
@@ -250,7 +250,7 @@ arguments as the latter.
 
 =head1 SEE ALSO
 
-L<Template::Manual>,
+L<Template>,
 L<Data::Dumper>
 
 =head1 AUTHOR
@@ -259,10 +259,9 @@ Agent Zhang, E<lt>agent2002@126.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2005 by Agent Zhang
+Copyright (C) 2005 Agent Zhang
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.6 or,
-at your option, any later version of Perl 5 you may have available.
+it under the same terms as Perl itself.
 
 =cut
